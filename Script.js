@@ -34,3 +34,14 @@ function checkSubscribed() {
         document.getElementById("subscribeOFF").style.display = "";
     }
 }
+
+function benvenuto() {
+    let emailStored = localStorage.getItem('Email');
+
+    if (emailStored != null) {
+        alert("Bentornato " + emailStored + "!\nScopri i nuovi trailer del momento!");
+    }
+    else {
+        alert("Benvenuto!")
+    }
+}
