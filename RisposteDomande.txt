@@ -16,6 +16,7 @@ c) http//www.fruit.com/fruit.png
 
 3. Osservando la pagina HTML sotto (dopo la domanda 4), indicare i selettori che consentono
 di selezionare tutti gli elementi li.
+<ul>
 
 4. Osservando la pagina HTML sotto, scrivere la regola CSS che consente di cambiare il colore 
 di background (con la stessa regola!) sia dell’elemento il cui id è ‘welcome’ sia degli 
