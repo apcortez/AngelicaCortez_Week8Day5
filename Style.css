@@ -1,0 +1,55 @@
+﻿body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron {
+    background-image: url("https://www.colourbox.com/preview/2439391-film-background.jpg");
+    height: 100%;
+    font-family:'Century Gothic';
+    color:aliceblue;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.col-50 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+fieldset {
+    color: darkolivegreen;
+}

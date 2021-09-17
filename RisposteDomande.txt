@@ -1,0 +1,45 @@
+﻿1. A partire da un esempio (diverso da quello nel materiale fornito), descrivere tutti i livelli che 
+costituiscono un dominio.
+Esempio di https://www.avanade.com
+https -> protocollo
+www   -> dominio di 3^ livello
+avanade -> dominio di 2^ livello
+com    -> dominio di 1^ livello
+
+
+2. Quale tra i seguenti combinazioni attributo-valore rende valido il seguente tag HTML?
+<img attributo=”valore”>
+Opzioni per attributo:
+c) src
+c) http//www.fruit.com/fruit.png
+
+
+3. Osservando la pagina HTML sotto (dopo la domanda 4), indicare i selettori che consentono
+di selezionare tutti gli elementi li.
+
+4. Osservando la pagina HTML sotto, scrivere la regola CSS che consente di cambiare il colore 
+di background (con la stessa regola!) sia dell’elemento il cui id è ‘welcome’ sia degli 
+elementi il cui class name è ‘color’. 
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Homepage</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <p id=”welcome” style="background-color:aqua">Benvenuti!</p>
+    <ul>
+        <li class="color" style="background-color:aqua">Giallo</li>
+        <li class="color" style="background-color:aqua">Blu</li>
+    </ul>
+</body>
+</html>
+
+
+5. Scrivere l’espressione per creare un hyperlink che conduce a www.avanade.com, 
+inserendo come testo ‘descrittivo’ Avanade.
+<a href="https://www.avanade.com">Avanade</a>
+
+6. Scegli l’elemento HTML corretto per avere l’heading più grande:
+c. <h1>
